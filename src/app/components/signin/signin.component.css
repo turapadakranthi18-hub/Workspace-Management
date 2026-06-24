@@ -1,0 +1,150 @@
+.auth-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F4F4F6;
+}
+ 
+.auth-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  padding: 36px;
+  width: 360px;
+  box-shadow: 0 8px 40px rgba(59, 58, 183, 0.08);
+}
+ 
+/* ── Logo ── */
+.auth-logo {
+  text-align: center;
+  margin-bottom: 24px;
+}
+ 
+.auth-logo-icon {
+  width: 52px;
+  height: 52px;
+  background: #3B3AB7;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 12px;
+ 
+  i {
+    font-size: 26px;
+    color: white;
+  }
+}
+ 
+.auth-brand {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1A1A2E;
+  margin: 0;
+}
+ 
+.auth-tagline {
+  font-size: 12px;
+  color: #888899;
+  margin: 2px 0 0;
+}
+ 
+/* ── Tabs ── */
+.auth-tabs {
+  display: flex;
+  gap: 3px;
+  background: #F8F8FA;
+  padding: 3px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+ 
+.auth-tab {
+  flex: 1;
+  padding: 7px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #555567;
+  border: none;
+  background: none;
+  transition: all 0.15s;
+ 
+  &.active {
+    background: #FFFFFF;
+    color: #3B3AB7;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  }
+}
+ 
+/* ── Form ── */
+.form-group {
+  margin-bottom: 14px;
+}
+ 
+.form-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #555567;
+  margin-bottom: 5px;
+  display: block;
+}
+ 
+.form-input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-size: 13px;
+  color: #1A1A2E;
+  background: #FFFFFF;
+  outline: none;
+  transition: border 0.15s;
+ 
+  &:focus {
+    border-color: #AFA9EC;
+    box-shadow: 0 0 0 3px rgba(59, 58, 183, 0.08);
+  }
+ 
+  &::placeholder {
+    color: #B0B0BC;
+  }
+}
+ 
+/* ── Submit button ── */
+.submit-btn {
+  width: 100%;
+  background: #3B3AB7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 11px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 6px;
+  transition: background 0.15s;
+ 
+  &:hover {
+    background: #534AB7;
+  }
+}
+ 
+/* ── Footer ── */
+.auth-footer {
+  text-align: center;
+  margin-top: 14px;
+  font-size: 12px;
+  color: #555567;
+ 
+  a {
+    color: #534AB7;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+ 
