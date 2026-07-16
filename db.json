@@ -1,0 +1,767 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Arjun Sharma",
+      "email": "arjun@worksphere.in",
+      "password": "pass123",
+      "role": "employee",
+      "dept": "Engineering",
+      "position": "Software Engineer",
+      "office": "Hyderabad",
+      "phone": "+91 98765 43210",
+      "manager": "Rajiv Menon",
+      "avatar": "AS",
+      "joinDate": "2022-03-15"
+    },
+    {
+      "id": "2",
+      "name": "Sneha Mehta",
+      "email": "sneha@worksphere.in",
+      "password": "pass123",
+      "role": "hr",
+      "dept": "HR",
+      "position": "HR Manager",
+      "office": "Mumbai",
+      "phone": "+91 98765 11111",
+      "manager": "CEO",
+      "avatar": "SM",
+      "joinDate": "2020-06-01"
+    },
+    {
+      "id": "3",
+      "name": "Priya Kapoor",
+      "email": "priya@worksphere.in",
+      "password": "pass123",
+      "role": "employee",
+      "dept": "Product",
+      "position": "Product Manager",
+      "office": "Bangalore",
+      "phone": "+91 98765 22222",
+      "manager": "Sneha Mehta",
+      "avatar": "PK",
+      "joinDate": "2021-09-10"
+    },
+    {
+      "id": "4",
+      "name": "Rahul Nair",
+      "email": "rahul@worksphere.in",
+      "password": "pass123",
+      "role": "employee",
+      "dept": "Engineering",
+      "position": "Backend Developer",
+      "office": "Hyderabad",
+      "phone": "+91 98765 33333",
+      "manager": "Arjun Sharma",
+      "avatar": "RN",
+      "joinDate": "2023-01-20"
+    },
+    {
+      "id": "5",
+      "name": "Vijay Reddy",
+      "email": "vijay@worksphere.in",
+      "password": "pass123",
+      "role": "employee",
+      "dept": "Engineering",
+      "position": "Frontend Developer",
+      "office": "Hyderabad",
+      "phone": "+91 98765 44444",
+      "manager": "Arjun Sharma",
+      "avatar": "VR",
+      "joinDate": "2023-03-05"
+    },
+    {
+      "id": "6",
+      "name": "Ananya Pillai",
+      "email": "ananya@worksphere.in",
+      "password": "pass123",
+      "role": "employee",
+      "dept": "Design",
+      "position": "UI/UX Designer",
+      "office": "Pune",
+      "phone": "+91 98765 55555",
+      "manager": "Priya Kapoor",
+      "avatar": "AP",
+      "joinDate": "2022-11-14"
+    },
+    {
+      "id": "7",
+      "name": "Karthik Suresh",
+      "email": "karthik@worksphere.in",
+      "password": "pass123",
+      "role": "employee",
+      "dept": "DevOps",
+      "position": "DevOps Engineer",
+      "office": "Chennai",
+      "phone": "+91 98765 66666",
+      "manager": "Rajiv Menon",
+      "avatar": "KS",
+      "joinDate": "2021-07-19"
+    },
+    {
+      "id": "8",
+      "name": "Meera Desai",
+      "email": "meera@worksphere.in",
+      "password": "pass123",
+      "role": "employee",
+      "dept": "Product",
+      "position": "Business Analyst",
+      "office": "Bangalore",
+      "phone": "+91 98765 77777",
+      "manager": "Priya Kapoor",
+      "avatar": "MD",
+      "joinDate": "2022-05-30"
+    },
+    {
+      "id": "9",
+      "name": "Aditya Tiwari",
+      "email": "aditya@worksphere.in",
+      "password": "pass123",
+      "role": "employee",
+      "dept": "Engineering",
+      "position": "Full Stack Developer",
+      "office": "Hyderabad",
+      "phone": "+91 98765 88888",
+      "manager": "Arjun Sharma",
+      "avatar": "AT",
+      "joinDate": "2023-06-12"
+    },
+    {
+      "id": "10",
+      "name": "Neha Joshi",
+      "email": "neha@worksphere.in",
+      "password": "pass123",
+      "role": "hr",
+      "dept": "HR",
+      "position": "HR Executive",
+      "office": "Mumbai",
+      "phone": "+91 98765 99999",
+      "manager": "Sneha Mehta",
+      "avatar": "NJ",
+      "joinDate": "2021-02-08"
+    },
+    {
+      "fullName": "",
+      "email": "kranthiturapada18@gmail.com",
+      "password": "BQE2LAXh9AKyVrY",
+      "department": "",
+      "position": "",
+      "officeLocation": "",
+      "id": "_Ink1-Z3bMY"
+    },
+    {
+      "fullName": "",
+      "email": "kranthiturapada18@gmail.com",
+      "password": "BQE2LAXh9AKyVrY",
+      "department": "",
+      "position": "",
+      "officeLocation": "",
+      "id": "XpPmkF8xdkE"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "userId": 1,
+      "title": "Review PR #342 — auth module",
+      "category": "Dev",
+      "status": "done",
+      "dueDate": "2025-06-12",
+      "createdAt": "2025-06-10"
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "title": "Update API documentation",
+      "category": "Docs",
+      "status": "pending",
+      "dueDate": "2025-06-16",
+      "createdAt": "2025-06-11"
+    },
+    {
+      "id": "3",
+      "userId": 1,
+      "title": "Team sync — Q3 planning",
+      "category": "Meeting",
+      "status": "pending",
+      "dueDate": "2025-06-14",
+      "createdAt": "2025-06-11"
+    },
+    {
+      "id": "4",
+      "userId": 1,
+      "title": "Submit leave request for July",
+      "category": "HR",
+      "status": "pending",
+      "dueDate": "2025-06-20",
+      "createdAt": "2025-06-12"
+    },
+    {
+      "id": "5",
+      "userId": 1,
+      "title": "Deploy staging build v1.8",
+      "category": "Dev",
+      "status": "done",
+      "dueDate": "2025-06-11",
+      "createdAt": "2025-06-09"
+    },
+    {
+      "id": "6",
+      "userId": 3,
+      "title": "Create Q3 product roadmap",
+      "category": "Planning",
+      "status": "pending",
+      "dueDate": "2025-06-18",
+      "createdAt": "2025-06-12"
+    },
+    {
+      "id": "7",
+      "userId": 4,
+      "title": "Fix login API bug",
+      "category": "Dev",
+      "status": "done",
+      "dueDate": "2025-06-13",
+      "createdAt": "2025-06-11"
+    },
+    {
+      "id": "8",
+      "userId": 5,
+      "title": "Implement dashboard charts",
+      "category": "Dev",
+      "status": "pending",
+      "dueDate": "2025-06-19",
+      "createdAt": "2025-06-12"
+    },
+    {
+      "id": "9",
+      "userId": 2,
+      "title": "Process June payroll",
+      "category": "HR",
+      "status": "pending",
+      "dueDate": "2025-06-25",
+      "createdAt": "2025-06-13"
+    },
+    {
+      "id": "10",
+      "userId": 2,
+      "title": "Conduct Q2 appraisal reviews",
+      "category": "HR",
+      "status": "done",
+      "dueDate": "2025-06-10",
+      "createdAt": "2025-06-05"
+    }
+  ],
+  "leaves": [
+    {
+      "id": "1",
+      "userId": 1,
+      "type": "Casual",
+      "fromDate": "2025-06-20",
+      "toDate": "2025-06-21",
+      "days": 2,
+      "reason": "Personal work",
+      "status": "pending",
+      "appliedOn": "2025-06-13",
+      "approvedBy": null
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "type": "Sick",
+      "fromDate": "2025-05-14",
+      "toDate": "2025-05-14",
+      "days": 1,
+      "reason": "Fever",
+      "status": "approved",
+      "appliedOn": "2025-05-14",
+      "approvedBy": "Sneha Mehta"
+    },
+    {
+      "id": "3",
+      "userId": 1,
+      "type": "Earned",
+      "fromDate": "2025-04-10",
+      "toDate": "2025-04-14",
+      "days": 5,
+      "reason": "Family vacation",
+      "status": "approved",
+      "appliedOn": "2025-04-01",
+      "approvedBy": "Sneha Mehta"
+    },
+    {
+      "id": "4",
+      "userId": 1,
+      "type": "Casual",
+      "fromDate": "2025-03-03",
+      "toDate": "2025-03-03",
+      "days": 1,
+      "reason": "Personal",
+      "status": "rejected",
+      "appliedOn": "2025-03-01",
+      "approvedBy": null
+    },
+    {
+      "id": "5",
+      "userId": 4,
+      "type": "Sick",
+      "fromDate": "2025-06-10",
+      "toDate": "2025-06-11",
+      "days": 2,
+      "reason": "Cold and fever",
+      "status": "approved",
+      "appliedOn": "2025-06-10",
+      "approvedBy": "Sneha Mehta"
+    },
+    {
+      "id": "6",
+      "userId": 3,
+      "type": "Casual",
+      "fromDate": "2025-06-25",
+      "toDate": "2025-06-25",
+      "days": 1,
+      "reason": "Personal errand",
+      "status": "pending",
+      "appliedOn": "2025-06-13",
+      "approvedBy": null
+    },
+    {
+      "id": "7",
+      "userId": 5,
+      "type": "Earned",
+      "fromDate": "2025-07-01",
+      "toDate": "2025-07-05",
+      "days": 5,
+      "reason": "Vacation",
+      "status": "pending",
+      "appliedOn": "2025-06-12",
+      "approvedBy": null
+    },
+    {
+      "id": "8",
+      "userId": 6,
+      "type": "Sick",
+      "fromDate": "2025-06-05",
+      "toDate": "2025-06-05",
+      "days": 1,
+      "reason": "Not feeling well",
+      "status": "approved",
+      "appliedOn": "2025-06-05",
+      "approvedBy": "Sneha Mehta"
+    }
+  ],
+  "leaveBalance": [
+    {
+      "id": "1",
+      "userId": 1,
+      "casual": {
+        "used": 3,
+        "total": 10
+      },
+      "sick": {
+        "used": 2,
+        "total": 15
+      },
+      "earned": {
+        "used": 11,
+        "total": 22
+      }
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "casual": {
+        "used": 1,
+        "total": 10
+      },
+      "sick": {
+        "used": 0,
+        "total": 15
+      },
+      "earned": {
+        "used": 5,
+        "total": 22
+      }
+    },
+    {
+      "id": "3",
+      "userId": 3,
+      "casual": {
+        "used": 4,
+        "total": 10
+      },
+      "sick": {
+        "used": 1,
+        "total": 15
+      },
+      "earned": {
+        "used": 8,
+        "total": 22
+      }
+    },
+    {
+      "id": "4",
+      "userId": 4,
+      "casual": {
+        "used": 2,
+        "total": 10
+      },
+      "sick": {
+        "used": 4,
+        "total": 15
+      },
+      "earned": {
+        "used": 3,
+        "total": 22
+      }
+    },
+    {
+      "id": "5",
+      "userId": 5,
+      "casual": {
+        "used": 1,
+        "total": 10
+      },
+      "sick": {
+        "used": 0,
+        "total": 15
+      },
+      "earned": {
+        "used": 6,
+        "total": 22
+      }
+    }
+  ],
+  "announcements": [
+    {
+      "id": "1",
+      "title": "Q2 Appraisals Released",
+      "body": "Your performance review for Q2 2025 is now available. Log in to MyHR to check your ratings and detailed feedback from your reporting manager. Appraisals will reflect in your salary from July 2025.",
+      "pinned": true,
+      "author": "HR Team",
+      "authorId": 2,
+      "date": "2025-06-12",
+      "views": 28,
+      "emoji": "celebration"
+    },
+    {
+      "id": "2",
+      "title": "Office Renovation — Floor 3",
+      "body": "Floor 3 will be under renovation from June 16 to June 20, 2025. All employees currently seated on Floor 3 should temporarily shift to the available seats on Floor 2. Facilities team will assist.",
+      "pinned": false,
+      "author": "Admin",
+      "authorId": 10,
+      "date": "2025-06-10",
+      "views": 41,
+      "emoji": "building"
+    },
+    {
+      "id": "3",
+      "title": "New HR Policy — Work From Home",
+      "body": "Effective July 1, 2025, all employees may avail up to 8 WFH days per month. WFH requests must be raised through the WorkSphere portal at least 24 hours in advance and approved by your reporting manager.",
+      "pinned": false,
+      "author": "HR Team",
+      "authorId": 2,
+      "date": "2025-06-06",
+      "views": 63,
+      "emoji": "rocket"
+    },
+    {
+      "id": "4",
+      "title": "Diwali Celebration — Save the Date",
+      "body": "We are celebrating Diwali across all our offices on October 18, 2025. More details on events, timings, and fun activities will be shared soon. Families are welcome!",
+      "pinned": false,
+      "author": "Culture Team",
+      "authorId": 10,
+      "date": "2025-05-30",
+      "views": 91,
+      "emoji": "party"
+    },
+    {
+      "id": "5",
+      "title": "Health Insurance Renewal",
+      "body": "Annual health insurance renewal is due by June 30, 2025. Please submit your updated nominee details and family member information via the HR portal. Contact Neha Joshi for any queries.",
+      "pinned": false,
+      "author": "HR Team",
+      "authorId": 2,
+      "date": "2025-05-25",
+      "views": 55,
+      "emoji": "health"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "1",
+      "userId": 1,
+      "date": "2025-06-09",
+      "status": "present",
+      "checkIn": "09:15",
+      "checkOut": "18:30"
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "date": "2025-06-10",
+      "status": "present",
+      "checkIn": "09:05",
+      "checkOut": "18:45"
+    },
+    {
+      "id": "3",
+      "userId": 1,
+      "date": "2025-06-11",
+      "status": "present",
+      "checkIn": "09:30",
+      "checkOut": "18:00"
+    },
+    {
+      "id": "4",
+      "userId": 1,
+      "date": "2025-06-12",
+      "status": "present",
+      "checkIn": "09:00",
+      "checkOut": "19:00"
+    },
+    {
+      "id": "5",
+      "userId": 1,
+      "date": "2025-06-13",
+      "status": "present",
+      "checkIn": "09:20",
+      "checkOut": "18:15"
+    },
+    {
+      "id": "6",
+      "userId": 2,
+      "date": "2025-06-09",
+      "status": "present",
+      "checkIn": "08:55",
+      "checkOut": "17:30"
+    },
+    {
+      "id": "7",
+      "userId": 2,
+      "date": "2025-06-10",
+      "status": "present",
+      "checkIn": "09:00",
+      "checkOut": "17:45"
+    },
+    {
+      "id": "8",
+      "userId": 2,
+      "date": "2025-06-11",
+      "status": "absent",
+      "checkIn": null,
+      "checkOut": null
+    },
+    {
+      "id": "9",
+      "userId": 2,
+      "date": "2025-06-12",
+      "status": "present",
+      "checkIn": "09:10",
+      "checkOut": "18:00"
+    },
+    {
+      "id": "10",
+      "userId": 2,
+      "date": "2025-06-13",
+      "status": "present",
+      "checkIn": "09:00",
+      "checkOut": "17:30"
+    },
+    {
+      "id": "11",
+      "userId": 3,
+      "date": "2025-06-09",
+      "status": "present",
+      "checkIn": "10:00",
+      "checkOut": "19:00"
+    },
+    {
+      "id": "12",
+      "userId": 3,
+      "date": "2025-06-10",
+      "status": "present",
+      "checkIn": "09:45",
+      "checkOut": "18:30"
+    },
+    {
+      "id": "13",
+      "userId": 3,
+      "date": "2025-06-11",
+      "status": "present",
+      "checkIn": "09:30",
+      "checkOut": "18:00"
+    },
+    {
+      "id": "14",
+      "userId": 4,
+      "date": "2025-06-09",
+      "status": "present",
+      "checkIn": "09:00",
+      "checkOut": "18:00"
+    },
+    {
+      "id": "15",
+      "userId": 4,
+      "date": "2025-06-10",
+      "status": "absent",
+      "checkIn": null,
+      "checkOut": null
+    },
+    {
+      "id": "16",
+      "userId": 4,
+      "date": "2025-06-11",
+      "status": "absent",
+      "checkIn": null,
+      "checkOut": null
+    },
+    {
+      "id": "17",
+      "userId": 4,
+      "date": "2025-06-12",
+      "status": "present",
+      "checkIn": "09:30",
+      "checkOut": "18:30"
+    },
+    {
+      "id": "18",
+      "userId": 4,
+      "date": "2025-06-13",
+      "status": "present",
+      "checkIn": "09:00",
+      "checkOut": "18:00"
+    },
+    {
+      "id": "19",
+      "userId": 5,
+      "date": "2025-06-09",
+      "status": "present",
+      "checkIn": "09:15",
+      "checkOut": "18:45"
+    },
+    {
+      "id": "20",
+      "userId": 5,
+      "date": "2025-06-10",
+      "status": "present",
+      "checkIn": "09:00",
+      "checkOut": "18:00"
+    },
+    {
+      "id": "21",
+      "userId": 5,
+      "date": "2025-06-11",
+      "status": "present",
+      "checkIn": "09:30",
+      "checkOut": "19:00"
+    },
+    {
+      "id": "22",
+      "userId": 5,
+      "date": "2025-06-12",
+      "status": "present",
+      "checkIn": "09:00",
+      "checkOut": "18:30"
+    },
+    {
+      "id": "23",
+      "userId": 5,
+      "date": "2025-06-13",
+      "status": "wfh",
+      "checkIn": "09:30",
+      "checkOut": "18:00"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "1",
+      "userId": 1,
+      "message": "Your leave request for Jun 20-21 is pending approval",
+      "type": "leave",
+      "read": false,
+      "createdAt": "2025-06-13T10:30:00"
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "message": "New announcement: Q2 Appraisals Released",
+      "type": "announcement",
+      "read": false,
+      "createdAt": "2025-06-12T09:00:00"
+    },
+    {
+      "id": "3",
+      "userId": 1,
+      "message": "Task due today: Update API documentation",
+      "type": "task",
+      "read": true,
+      "createdAt": "2025-06-11T08:00:00"
+    },
+    {
+      "id": "4",
+      "userId": 2,
+      "message": "Rahul Nair applied for leave — pending your approval",
+      "type": "leave",
+      "read": false,
+      "createdAt": "2025-06-13T11:00:00"
+    },
+    {
+      "id": "5",
+      "userId": 2,
+      "message": "Priya Kapoor applied for leave — pending your approval",
+      "type": "leave",
+      "read": false,
+      "createdAt": "2025-06-13T14:00:00"
+    }
+  ],
+  "activityFeed": [
+    {
+      "id": "1",
+      "userId": 3,
+      "userName": "Priya Kapoor",
+      "avatar": "PK",
+      "action": "completed sprint review slides",
+      "type": "task",
+      "timestamp": "2025-06-13T11:00:00"
+    },
+    {
+      "id": "2",
+      "userId": 4,
+      "userName": "Rahul Nair",
+      "avatar": "RN",
+      "action": "submitted a leave request",
+      "type": "leave",
+      "timestamp": "2025-06-13T09:30:00"
+    },
+    {
+      "id": "3",
+      "userId": 2,
+      "userName": "Sneha Mehta",
+      "avatar": "SM",
+      "action": "posted a new announcement",
+      "type": "announcement",
+      "timestamp": "2025-06-12T10:00:00"
+    },
+    {
+      "id": "4",
+      "userId": 5,
+      "userName": "Vijay Reddy",
+      "avatar": "VR",
+      "action": "joined the backend team",
+      "type": "onboarding",
+      "timestamp": "2025-06-11T09:00:00"
+    },
+    {
+      "id": "5",
+      "userId": 9,
+      "userName": "Aditya Tiwari",
+      "avatar": "AT",
+      "action": "completed onboarding tasks",
+      "type": "task",
+      "timestamp": "2025-06-10T16:00:00"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
